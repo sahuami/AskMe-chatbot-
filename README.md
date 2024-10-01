@@ -1,0 +1,10 @@
+1. Morgan package: The "Morgan" package is a popular middleware for Node.js, commonly used with the Express framework. It provides HTTP request(post or get) logging functionality, making it easier to monitor incoming requests and their details such as status codes, response times, and request methods.(means jo bhi Api request hum marege use console pe show krata hai ye package) which is useful for monitoring incoming traffic and debugging issues
+
+
+2. body parser: body-parser is essential for handling incoming data in a variety of formats, such as JSON, URL-encoded form data, and raw or text data. It transforms this data into a readable format under req.body for easier processing in your application.(means node se jo bhi data format ata hai usse  body parser  ki help se  readable format m convert krke react m bhej diya jata hai taki react application ache se process kr sake)
+
+
+3. cors: the front end of an application is only able to make API calls to the back end in its origin. This is known as the Same-Origin Policy and is quite important from a security standpoint. All requests made from the front end of a different origin or to a back end of a different origin will be blocked by the browser. CORS allows us to bypass this policy in case of scenarios where accessing third-party resources becomes necessary. 
+Cross-Origin Resource Sharing in Node.js is a mechanism by which a front-end client can make requests for resources to an external back-end server. The single-origin policy does not allow cross-origin requests and CORS headers are required to bypass this feature. 
+
+4. colors: the colors package is a popular library used for styling and coloring text in the terminal. It helps developers make terminal output more readable by allowing text to be printed in different colors, styles 
